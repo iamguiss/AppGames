@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mCalendario"
+        android:icon="@drawable/baseline_calendar_month"
+        android:title="Calendário"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mLista"
+        android:icon="@drawable/baseline_view_list"
+        android:enabled="true"
+        android:title="Lista De Jogo"
+        app:showAsAction="ifRoom"
+
+    <item
+        android:id="@+id/mGrupo"
+        android:enabled="true"
+        android:icon="@drawable/baseline_groups"
+        android:title="Grupos de Jogos"
+        app:showAsAction="ifRoom"
+
+    <item
+        android:id="@+id/Amigos"
+        android:enabled="true"
+        android:icon="@drawable/baseline_group"
+        android:title="Amigos Online"
+        app:showAsAction="ifRoom"
+
+</menu>

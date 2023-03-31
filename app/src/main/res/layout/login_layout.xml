@@ -9,7 +9,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
@@ -23,7 +23,7 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Olá games, façam login para ter acesso as informações novas"
+        android:text="Olá games, faça login para ter acesso as informações novas"
         android:textColor="#000"
         android:textSize="15dp"
         android:textStyle="bold|italic"
@@ -118,6 +118,16 @@
             android:textStyle="bold">
 
         </Button>
+
     </LinearLayout>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:labelVisibilityMode="labeled"
+        android:background="#c32d02"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottomop"
+
+        />
 </LinearLayout>
